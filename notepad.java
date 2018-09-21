@@ -489,7 +489,7 @@ public class notepad extends JFrame implements ActionListener,WindowListener
 		
 		if(e.getSource() == find)
 		{
-			searchall = JOptionPane.showInputDialog("Enter The Word You Want To Search");
+			searchall = JOptionPane.showInputDialog("Enter The Word You Want Search");
 		}
 	}
 	
@@ -500,3 +500,5 @@ public class notepad extends JFrame implements ActionListener,WindowListener
 	
 
 }
+
+
